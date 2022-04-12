@@ -1,6 +1,6 @@
 PODS:
   - MBProgressHUD (1.2.0)
-  - PTXLibrary (0.0.3):
+  - PTXLibrary (0.0.5):
     - MBProgressHUD
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  PTXLibrary: 07feee85f8ed6d3d29daa871f151b47d65c59318
+  PTXLibrary: c2ad191c20f42ed00a9937dda40b62d590c31db5
 
 PODFILE CHECKSUM: 4d4656e12544914342ee7f4dffe1c61099f37820
 
