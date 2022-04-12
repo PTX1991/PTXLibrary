@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PTXLibrary'
   s.version          = '0.0.2'
-  s.summary          = 'A short description of PTXLibrary.'
+  s.summary          = 'My first public library project that in order to learning how to use pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/pantx/PTXLibrary'
+  s.homepage         = 'https://github.com/PTX1991/PTXLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pantx' => '664023725@qq.com' }
