@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PTXLibrary'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'My first public library project that in order to learning how to use pod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'PTXLibrary/Classes/**/*'
+  
+  s.dependency 'MBProgressHUD'
   
   # s.resource_bundles = {
   #   'PTXLibrary' => ['PTXLibrary/Assets/*.png']

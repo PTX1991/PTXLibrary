@@ -1,9 +1,9 @@
 {
   "name": "PTXLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of PTXLibrary.",
+  "version": "0.0.3",
+  "summary": "My first public library project that in order to learning how to use pod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pantx/PTXLibrary",
+  "homepage": "https://github.com/PTX1991/PTXLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "pantx": "664023725@qq.com"
   },
   "source": {
-    "git": "https://github.com/pantx/PTXLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/PTX1991/PTXLibrary.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "PTXLibrary/Classes/**/*"
+  "source_files": "PTXLibrary/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
 }

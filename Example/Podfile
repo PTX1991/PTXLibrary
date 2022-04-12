@@ -1,9 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '11.0'
 
 target 'PTXLibrary_Example' do
   pod 'PTXLibrary', :path => '../'
+  
+  pod 'MBProgressHUD'
 
   target 'PTXLibrary_Tests' do
     inherit! :search_paths

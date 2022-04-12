@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func testAction(_ sender: Any) {
-        PTXClass.showMessage()
+        PTXClass.showMessage(view)
     }
 }
 

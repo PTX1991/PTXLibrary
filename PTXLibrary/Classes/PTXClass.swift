@@ -6,11 +6,15 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 public class PTXClass: NSObject {
 
-    public static func showMessage() {
-        print("------>:showMessage in PTXClass 0.0.2")
+    public static func showMessage(_ view: UIView) {
+        MBProgressHUD.showAdded(to: view, animated: true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            MBProgressHUD.hide(for: view, animated: true)
+        }
     }
     
 }
