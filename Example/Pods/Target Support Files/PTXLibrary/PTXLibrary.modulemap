@@ -1,0 +1,6 @@
+framework module PTXLibrary {
+  umbrella header "PTXLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PTXLibrary (0.1.0)
+
+DEPENDENCIES:
+  - PTXLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  PTXLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PTXLibrary: 9d4053be15c08933256a6e15ea5e613a5660e7ef
+
+PODFILE CHECKSUM: 6087fcbd410053ae463808c8fc7973d92458769d
+
+COCOAPODS: 1.10.1

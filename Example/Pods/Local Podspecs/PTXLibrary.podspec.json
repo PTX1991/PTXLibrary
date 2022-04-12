@@ -1,0 +1,22 @@
+{
+  "name": "PTXLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of PTXLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pantx/PTXLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pantx": "664023725@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/pantx/PTXLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PTXLibrary/Classes/**/*"
+}
