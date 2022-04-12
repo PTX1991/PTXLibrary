@@ -10,7 +10,7 @@ import UIKit
 public class PTXClass: NSObject {
 
     public static func showMessage() {
-        print("------>:showMessage in PTXClass")
+        print("------>:showMessage in PTXClass 0.0.2")
     }
     
 }
